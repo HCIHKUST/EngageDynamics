@@ -1,40 +1,131 @@
 <!DOCTYPE html>
 <html>
-
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Sensing and Handling
-    Engagement Dynamics in Human-Robot Interaction Involving Peripheral Computing Devices">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-	<link href="http://vjs.zencdn.net/4.11/video-js.css" rel="stylesheet">
-	<script src="http://vjs.zencdn.net/4.11/video.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style type="text/css">
+    .FontStyleMiddle {
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+    }
+    .FontStyleBig {
+      font-size: 24px;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    </style>
     <title>EngageDynamics</title>
   </head>
 
   <body>
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/HCIHKUST/EngageDynamics">View on GitHub</a>
+    <div class="container">
+      <div class="jumbotron">
+        <table class="table">
+          <tr>
+            <td height="163" colspan="2" align="center">
+              <div align="center">
+                <div><span class="FontStyleBig">Sensing and Handling Engagement Dynamics in Human-Robot Interaction Involving Peripheral Computing Devices</span>
+                </div>
+                <br>
+                <div class="FontStyleBig"><a href="https://chi2017.acm.org/" target="_blank">CHI 2017</div>
+                </div>
+                <br>
+                <div align="center">
+                  <div class="FontStyleMiddle">
+                    <a href="" target="_blank">Mingfei Sun</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="" target="_blank">Zhenjie Zhao</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://www.cse.ust.hk/~mxj/" target="_blank">Xiaojuan Ma</a>
+                  </div>
+                </div>
+                <br>
+                <div class="FontStyleBig" align="center">
+                  <span lang="EN-US"><a href="http://www.ust.hk/" target="_blank">HKUST</a>
+                </div>
+                <br>
+              </td>
+            </tr>
+        </table>
+      </div>
 
-          <h1 id="project_title">EngageDynamics</h1>
-          <h2 id="project_tagline">Sensing and Handling Engagement Dynamics in Human-Robot Interaction Involving Peripheral Computing Devices</h2>
+      <!-- content -->
+      <div>
+        <table class="table">
+          <tr>
+            <td colspan="2" height="534" valign="middle">
+              <div align="justify">
+                <p align="center"><img src="images/system_overview_large_font.png" width="755" height="443"><br></p>
+                <p align="justify">
+                  During the interaction with human partners, the robot keeps capturing and analyzing human participants’ social signals,
+                  e.g., head pose, voice, etc., in the
+                  Visual-auditory Processing module. The results are then fed into the Engagement Inference module, which infers human
+                  engagement states in real time by adjusting the weights of
+                  social signals dynamically. These states are further used in the
+                  Behavior Generation module to guide the robot’s behaviors
+                  according to our predefined behavior codebook.
+                </p>
+              </div>
+            </td>
+          </tr>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/HCIHKUST/EngageDynamics/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/HCIHKUST/EngageDynamics/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
+          <tr>
+            <td bgcolor="#CCCCCC" height="231" width="83">
+              <div align="right"><span class="FontStyleMiddle">Abstract</span></div>
+            </td>
+
+            <td width="711">
+              <div align="justify">
+                When human partners attend to peripheral computing devices while interacting with conversational robots, the inability of the robots to determine the actual engagement level of the human partners after gaze shift may cause communication breakdown. In this paper, we propose a real-time perception model for robots to estimate human partners' engagement dynamics, and investigate different robot behavior strategies to handle ambiguities in humans' status and ensure the flow of the conversation. In particular, we define four novel types of engagement status and propose a real-time engagement inference model that weighs humans' social signals dynamically according to the involvement of the computing devices. We further design two robot behavior strategies (\emph{explicit} and \emph{implicit}) to help resolve uncertainties in engagement inference and mitigate the impact of uncoupling, based on an annotated human-human interaction video corpus. We conducted a within-subject experiment to assess the efficacy and usefulness of the proposed engagement inference model and behavior strategies. Results show that robots with our engagement model can deliver better service and smoother conversations as an assistant, and people find the implicit strategy more polite and appropriate.
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td bgcolor="#CCCCCC" height="403">
+              <div class="FontStyleMiddle" align="right">Video</div>
+            </td>
+
+            <td align="left"><iframe width="640" height="480" src="https://www.youtube.com/embed/JhBMneRqVVY?rel=0" frameborder="0" allowfullscreen></iframe>
+            </td>
+          </tr>
+
+          <tr>
+            <td bgcolor="#CCCCCC" height="46"><div class="FontStyleMiddle" align="right">Supplementary materials</div></td>
+            <td>
+              <div align="left">
+                <strong><a href="EngageDynamics_CHI2017.pdf">Paper</a></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <strong><a href="https://github.com/HCIHKUST/EngageDynamics">Code</a></strong>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td bgcolor="#CCCCCC" height="154"><div class="FontStyleMiddle" align="right">Citation</div></td>
+            <td>
+              <div align="left"><span lang="EN-US"> </span>@INPROCEEDINGS{EngageDynamics:2017,<br>
+                author = {Mingfei Sun and Zhenjie Zhao and Xiaojuan Ma},<br>
+                title = {Sensing and Handling Engagement Dynamics in Human-Robot Interaction Involving Peripheral Computing Devices},<br>
+                booktitle = {Proceedings of CHI '17},<br>
+                year = {2017},<br>
+                }<br>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td bgcolor="#CCCCCC" height="90"><div align="right"><span class="FontStyleMiddle">Thanks</span></div></td>
+            <td><p>
+              This project is funded by the WeChat-HKUST Joint Laboratory on Artificial Intelligence Technology (WHAT LAB), funding number 1516144-0, and NSF CIFellows grant, funding number 1019343.
+            </p></td>
+          </tr>
+
+          <tr><td colspan="2" height="37"><div align="right"></div></td></tr>
+        </table>
+      </div>
     </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <hr>
-        <h1><a id="something" class="anchor" href="#something" aria-hidden="true"><span class="octicon octicon-link"></span></a>Something</h1>
-      </section>
-    </div>
-  </body>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
 </html>
