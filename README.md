@@ -1,4 +1,6 @@
 ## This Project
+![](demo.gif)
+
 The project aims to study human participants' engagement dynamics when they are interacting with a robot. More about this project can be found in this paper, Sensing and Handling Engagement Dynamics in Human-Robot Interaction Involving Peripheral Computing Devices, which will soon be published in the proceedings of [ACM SIGCHI 2017](https://chi2017.acm.org/). 
 The video showcase of this project can be found [here](https://www.youtube.com/watch?v=ay_ak9ejMro).
 
@@ -21,7 +23,7 @@ Some example annotations of our video corpus are listed in the /codebook/Codeboo
 Please cite this project if you use any codes here:
 
 ~~~~
-article{Sun2017,
+@article{Sun2017,
 title = {{Sensing and Handling Engagement Dynamics in Human-Robot Interaction Involving Peripheral Computing Devices}},
 year = {2017},
 journal = {Proceedings of the SIGCHI Conference on Human Factors in Computing Systems - CHI '17},
