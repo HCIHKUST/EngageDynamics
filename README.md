@@ -39,3 +39,7 @@ keywords = {Human-Robot Interaction; Engagement Awareness; Peripheral Computing 
 
 ##  Acknowledgement
 We thank the WeChat-HKUST Joint Laboratory on Artificial Intelligence Technology (WHAT LAB) grant#1516144-0, and NSF CIFellows grant#1019343, for sponsoring this research.
+
+-------------------------------
+
+BSD License
