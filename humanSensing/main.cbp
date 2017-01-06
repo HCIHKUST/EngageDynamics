@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="main" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="main">
+         <Option output="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/main" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/NaoRobot/software/naoqi-SDK/naoqi-sdk-2.1.4.13-linux32/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/Makefile&quot;  VERBOSE=1 main" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="main/fast">
+         <Option output="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/main" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/NaoRobot/software/naoqi-SDK/naoqi-sdk-2.1.4.13-linux32/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/Makefile&quot;  VERBOSE=1 main/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/NaoAction3/actions.cpp">
+      </Unit>
+      <Unit filename="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/NaoAction3/actions_utils.cpp">
+      </Unit>
+      <Unit filename="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/NaoAction3/human_state.cpp">
+      </Unit>
+      <Unit filename="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/NaoAction3/interface.cpp">
+      </Unit>
+      <Unit filename="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/NaoAction3/motion_utils.cpp">
+      </Unit>
+      <Unit filename="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/NaoAction3/nao_action.cpp">
+      </Unit>
+      <Unit filename="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/dialogModule/converter.cpp">
+      </Unit>
+      <Unit filename="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/dialogModule/dialogtext.cpp">
+      </Unit>
+      <Unit filename="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/dialogModule/exec_shell.cpp">
+      </Unit>
+      <Unit filename="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/dialogModule/tulingmodule.cpp">
+      </Unit>
+      <Unit filename="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/dialogModule/wakeup.cpp">
+      </Unit>
+      <Unit filename="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/humansense.cpp">
+      </Unit>
+      <Unit filename="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/main.cpp">
+      </Unit>
+      <Unit filename="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/naosensors.cpp">
+      </Unit>
+      <Unit filename="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/newauto.cpp">
+      </Unit>
+      <Unit filename="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/operations.cpp">
+      </Unit>
+      <Unit filename="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/sharedvar.cpp">
+      </Unit>
+      <Unit filename="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/NaoAction3/human_state.h">
+      </Unit>
+      <Unit filename="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/NaoAction3/interface.h">
+      </Unit>
+      <Unit filename="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/NaoAction3/motion_utils.h">
+      </Unit>
+      <Unit filename="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/NaoAction3/nao_action.h">
+      </Unit>
+      <Unit filename="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/NaoAction3/trim.h">
+      </Unit>
+      <Unit filename="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/dialogModule/converter.h">
+      </Unit>
+      <Unit filename="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/dialogModule/dialogtext.h">
+      </Unit>
+      <Unit filename="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/dialogModule/exec_shell.h">
+      </Unit>
+      <Unit filename="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/dialogModule/tulingmodule.h">
+      </Unit>
+      <Unit filename="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/dialogModule/wakeup.h">
+      </Unit>
+      <Unit filename="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/humansense.h">
+      </Unit>
+      <Unit filename="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/naosensors.h">
+      </Unit>
+      <Unit filename="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/newauto.h">
+      </Unit>
+      <Unit filename="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/operations.h">
+      </Unit>
+      <Unit filename="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/sharedvar.h">
+      </Unit>
+      <Unit filename="/home/mingfeisun/studyInHKUST/research/2016/projects/footing/implementation/naoAlgo/engagementSensing/humanSensing/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

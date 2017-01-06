@@ -1,0 +1,5 @@
+bin/test_dialog
+remote_gdbserver.sh
+setup.gdb
+setup_target.gdb
+share/qi/path.conf
