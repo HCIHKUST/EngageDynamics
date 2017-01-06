@@ -25,7 +25,7 @@ Some example annotations of our video corpus are listed in the /codebook/Codeboo
 Please cite this project if you use any codes here:
 
 ~~~~
-@article{Sun2017,
+@INPROCEEDINGS{Sun2017,
 title = {{Sensing and Handling Engagement Dynamics in Human-Robot Interaction Involving Peripheral Computing Devices}},
 year = {2017},
 journal = {Proceedings of the SIGCHI Conference on Human Factors in Computing Systems - CHI '17},
