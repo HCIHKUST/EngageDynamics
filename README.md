@@ -17,7 +17,7 @@ All the system codes can be found in /humanSensing folder. Information about our
 * humanSensing/NaoAction3 is in charge of controlling nao robot to exercise state-sensitive behaviors. 
 
 ## Codebook & Annotations
-The codebook (/codebook/Codebook-Meeting.xlsx) contains all the codes we have used as reference to annotate the video corpus. More details on this codebook can be found in the [project paper](SensingAndHandling.pdf). 
+The codebook (/codebook/Codebook-Meeting.xlsx) contains all the codes we have used as reference to annotate the video corpus. More details on this codebook can be found in the [project paper](https://hcihkust.github.io/EngageDynamics/Sensing%20and%20Handling%20Engagement%20Dynamics%20in%20Human-Robot%20Interaction%20Involving%20Peripheral%20Computing%20Devices.pdf). 
 
 Some example annotations of our video corpus are listed in the /codebook/Codebook-MultipartyMeeting-MHCI-plot.xlsx. Different sheets in this file correspond to different meeting video. 
 
