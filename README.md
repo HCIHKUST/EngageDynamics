@@ -1,4 +1,8 @@
 ## This Project
+The video showcase this project:
+
+[![IMAGE ALT TEXT](https://www.youtube.com/watch?v=ay_ak9ejMro/0.jpg)](https://www.youtube.com/watch?v=ay_ak9ejMro "Video Title")
+
 The project aims to study human participants' engagement dynamics when they are interacting with a robot. More about this project can be found in this paper, Sensing and Handling Engagement Dynamics in Human-Robot Interaction Involving Peripheral Computing Devices, which will soon be published in the proceedings of [ACM SIGCHI 2017](https://chi2017.acm.org/). 
 
 ## Code framework
