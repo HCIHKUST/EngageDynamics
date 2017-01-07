@@ -3,12 +3,12 @@ The project studys how robot assistants perceive and handle human participants' 
 
 All the system codes can be found in /humanSensing folder, which includes:
 
-* humanSensing/main.cpp shows the system flow.
-* humanSensing/humanSensing.cpp contains the algorithms to detect participants' gaze, head movement and voice information
-* humanSensing/naosensors.cpp contains the code snippets to control the embedded sensors, including LED, chest button. We use the eye LEDs to make nao blink its eyes, and use the chest button to change the strategies.
-* humanSensing/newauto.cpp is the initializing code segment for nao to return to default posture.
-* humanSensing/sharedvar.cpp contains all the constant defintions.
-* humanSensing/NaoAction3 is in charge of controlling nao robot to exercise state-sensitive behaviors. 
+* humanSensing/main.cpp shows the system flow
+* humanSensing/humanSensing.cpp contains the algorithm to detect human participants' gaze, head movement and voice information
+* humanSensing/naosensors.cpp is used to control the embedded sensors, including LED, chest button. We use the eye LEDs to make the Nao robot blink its eyes, and use the chest button to change the strategies
+* humanSensing/newauto.cpp is the initializing code for the Nao robot to return to the default posture
+* humanSensing/sharedvar.cpp contains common global variables
+* humanSensing/NaoAction3 is in charge of controlling the Nao robot to exercise state-sensitive behaviors
 
 ## How to use?
 
