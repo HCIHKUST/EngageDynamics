@@ -1,13 +1,7 @@
 ## This Project
-The project aims to study human participants' engagement dynamics when they are interacting with a robot.
+The project studys how robot assistants perceive and handle human participants' engagement dynamics during conversation services. We propose a novel engagement sensing model and two different handling stragtegies. Details can be found in our paper *Sensing and Handling Engagement Dynamics in Human-Robot Interaction Involving Peripheral Computing Devices*. And a quick preview can be found in the project [homepage](https://hcihkust.github.io/EngageDynamics/) 
 
-![](demo.gif)
-
-More about this project can be found in this paper, Sensing and Handling Engagement Dynamics in Human-Robot Interaction Involving Peripheral Computing Devices, which will soon be published in the proceedings of [ACM SIGCHI 2017](https://chi2017.acm.org/). 
-The video showcase of this project can be found [here](https://www.youtube.com/watch?v=ay_ak9ejMro).
-
-## Code framework
-All the system codes can be found in /humanSensing folder. Information about our system can be found in our [project homepage](https://hcihkust.github.io/EngageDynamics/).
+All the system codes can be found in /humanSensing folder, which includes:
 
 * humanSensing/main.cpp shows the system flow.
 * humanSensing/humanSensing.cpp contains the algorithms to detect participants' gaze, head movement and voice information
@@ -16,13 +10,13 @@ All the system codes can be found in /humanSensing folder. Information about our
 * humanSensing/sharedvar.cpp contains all the constant defintions.
 * humanSensing/NaoAction3 is in charge of controlling nao robot to exercise state-sensitive behaviors. 
 
-## Codebook & Annotations
-The codebook (/codebook/Codebook-Meeting.xlsx) contains all the codes we have used as reference to annotate the video corpus. More details on this codebook can be found in the [project paper](https://hcihkust.github.io/EngageDynamics/Sensing%20and%20Handling%20Engagement%20Dynamics%20in%20Human-Robot%20Interaction%20Involving%20Peripheral%20Computing%20Devices.pdf). 
+## How to use?
 
-Some example annotations of our video corpus are listed in the /codebook/Codebook-MultipartyMeeting-MHCI-plot.xlsx. Different sheets in this file correspond to different meeting video. 
+## Codebook & Annotations
+To design our handling strategies, we collect and compile a behavior codebook based on our observations of Human-Human Interaction video recordings with similar settings. The codebook can be found in /codebook/Codebook-Meeting.xlsx. Some example annotations are listed in the /codebook/Codebook-MultipartyMeeting-MHCI-plot.xlsx. Different sheets in this file correspond to different meeting video.  
 
 ## Citations
-Please cite this project if you use any codes here:
+Please cite our paper if you use the code/codebook:
 
 ~~~~
 @INPROCEEDINGS{Sun2017,
