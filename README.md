@@ -13,7 +13,7 @@ All the system codes can be found in /humanSensing folder, which includes:
 ## How to use?
 
 ## Codebook & Annotations
-To design our handling strategies, we collect and compile a behavior codebook based on our observations of Human-Human Interaction video recordings with similar settings. The codebook can be found in /codebook/Codebook-Meeting.xlsx. Some example annotations are listed in the /codebook/Codebook-MultipartyMeeting-MHCI-plot.xlsx. Different sheets in this file correspond to different meeting video.  
+To design our handling strategies, we collect and compile a behavior codebook based on our observations of Human-Human Interaction video recordings with similar settings. The codebook can be found in /codebook/Codebook-Meeting.xlsx. Some example annotations are listed in the /codebook/Codebook-MultipartyMeeting-MHCI-plot.xlsx. Different sheets in this file correspond to different meeting videos.  
 
 ## Citations
 Please cite our paper if you use the code/codebook:
