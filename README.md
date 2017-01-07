@@ -1,5 +1,5 @@
 ## This Project
-The project studys how robot assistants perceive and handle human participants' engagement dynamics during conversation services. We propose a novel engagement sensing model and two different handling stragtegies. Details can be found in our paper *Sensing and Handling Engagement Dynamics in Human-Robot Interaction Involving Peripheral Computing Devices*. And a quick preview can be found in the project [homepage](https://hcihkust.github.io/EngageDynamics/) 
+The project studys how robot assistants perceive and handle human participants' engagement dynamics during conversation services. We propose a novel engagement sensing model and two different handling stragtegies. Details can be found in our paper *Sensing and Handling Engagement Dynamics in Human-Robot Interaction Involving Peripheral Computing Devices*. And a quick preview can be found in the project [homepage](https://hcihkust.github.io/EngageDynamics/) .
 
 All the system codes can be found in /humanSensing folder, which includes:
 
